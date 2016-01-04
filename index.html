@@ -1,0 +1,78 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <div class="usa-grid">
+	  
+	  <h2 class="usa-heading">Lessons</h2>
+      <div class="usa-width-one-whole">
+
+        <h3 class="usa-heading">Terminology and Overview</h6>
+		
+		
+		  {% for post in site.posts %}
+		  {% if post.category == "overview" %}
+		    <h4>
+		      <a href="{{ post.url }}">{{ post.title }}</a>
+			</h4>
+			  <h5> Learning Objectives: </h5>
+			  	<ol>
+					{% for obj in post.objectives %}
+					<li>{{ obj }}</li>
+					{% endfor %}
+				</ol>
+
+		  {% endif %}
+		  {% endfor %}
+		
+
+      </div>
+
+      <div class="usa-width-one-whole">
+
+        <h3 class="usa-heading">Statistical Issues in Analytical Performance Assessment</h6>
+
+	  {% for post in site.posts %}
+	  {% if post.category == "analytic" %}
+	    <h4>
+	      <a href="{{ post.url }}">{{ post.title }}</a>
+		</h4>
+		  <h5> Learning Objectives: </h5>
+		  	<ol>
+				{% for obj in post.objectives %}
+				<li>{{ obj }}</li>
+				{% endfor %}
+			</ol>
+
+	  {% endif %}
+	  {% endfor %}
+
+      </div>
+	  
+      <div class="usa-width-one-whole">
+
+        <h3 class="usa-heading">Statistical Issues in Biomarker-Based Clinical Trials</h6>
+
+	  {% for post in site.posts %}
+	  {% if post.category == "design" %}
+	    <h4>
+	      <a href="{{ post.url }}">{{ post.title }}</a>
+		</h4>
+		  <h5> Learning Objectives: </h5>
+		  	<ol>
+				{% for obj in post.objectives %}
+				<li>{{ obj }}</li>
+				{% endfor %}
+			</ol>
+
+	  {% endif %}
+	  {% endfor %}
+
+      </div>
+    </div>
+  
+
+
+</div>
