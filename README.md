@@ -6,7 +6,7 @@ This is the website for the NCI's assay development educational series. The aim 
 
 ## Contributing
 
-To write or contribute to a lesson, navigate to the ["_posts" directory](https://github.com/sachsmc/assay-education/tree/gh-pages/_posts), download the file you wish to edit. The files are developed in a standard format, using the kramdown version of the [markdown syntax](http://kramdown.gettalong.org/syntax.html). It is best to use a plain text editor to edit the files. Here are some good ones: 
+To write or contribute to a lesson, navigate to the ["_posts" directory](https://github.com/sachsmc/assay-education/tree/master/_posts), download the file you wish to edit. The files are developed in a standard format, using the kramdown version of the [markdown syntax](http://kramdown.gettalong.org/syntax.html). It is best to use a plain text editor to edit the files. Here are some good ones: 
 
 - Windows
 		+ [Notepad ++](http://notepad-plus-plus.org/)
