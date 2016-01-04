@@ -14,15 +14,18 @@ layout: default
 		
 		  {% for post in site.posts %}
 		  {% if post.category == "overview" %}
-		    <h4>
-		      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-			</h4>
-			  <h5> Learning Objectives: </h5>
-			  	<ol>
-					{% for obj in post.objectives %}
-					<li>{{ obj }}</li>
-					{% endfor %}
-				</ol>
+		  <div class="lesson-card">
+		    
+		      <a class="usa-button" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+			
+  		  <h5> Learning Objectives: </h5>
+  		  	<ol>
+  				{% for obj in post.objectives %}
+  				<li>{{ obj }}</li>
+  				{% endfor %}
+  			</ol>
+
+			</div>
 
 		  {% endif %}
 		  {% endfor %}
@@ -36,16 +39,17 @@ layout: default
 
 	  {% for post in site.posts %}
 	  {% if post.category == "analytic" %}
-	    <h4>
-	      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-		</h4>
+	  <div class="lesson-card">
+
+	      <a class="usa-button" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+
 		  <h5> Learning Objectives: </h5>
 		  	<ol>
 				{% for obj in post.objectives %}
 				<li>{{ obj }}</li>
 				{% endfor %}
 			</ol>
-
+</div>
 	  {% endif %}
 	  {% endfor %}
 
@@ -57,16 +61,17 @@ layout: default
 
 	  {% for post in site.posts %}
 	  {% if post.category == "design" %}
-	    <h4>
-	      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-		</h4>
+	  <div class="lesson-card">
+
+	      <a class="usa-button" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+
 		  <h5> Learning Objectives: </h5>
 		  	<ol>
 				{% for obj in post.objectives %}
 				<li>{{ obj }}</li>
 				{% endfor %}
 			</ol>
-
+</div>
 	  {% endif %}
 	  {% endfor %}
 
