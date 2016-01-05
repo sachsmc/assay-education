@@ -15,21 +15,25 @@ objectives:
 
 ---
 
-> ## Learning Objectives
->  - item 1
->  - item 2
->  - item 3
-{: .usa-alert .usa-alert-success}
+## Learning Objectives {.usa-alert .usa-alert-success}
+- Sentence number one.
+- Sentence number two.
+- Sentence number 3.
+
 
 ## Section 1
 
-> ### Definition
-> Content
-{: .usa-alert .usa-alert-info}
+$\alpha$
 
-> ### Aside or Note
-> content
-{: .usa-alert .usa-alert-warning}
+### Definition {.usa-alert .usa-alert-info}
+Content
+Some math:  $\int_0^1 \beta^2 f(x) \, df(x)$
+
+
+
+### Aside or Note {.usa-alert .usa-alert-warning}
+ content
+
 
 ### Subsection
 
@@ -37,6 +41,7 @@ objectives:
 
 ## Section 2
 
+According to @jennings2009recommended.
 
 
 ## Test your knowledge
@@ -44,29 +49,29 @@ objectives:
 #### Click the question to reveal answer
 
 <div class="usa-accordion-bordered">
-    <ul class="usa-unstyled-list">
-      <li>
-        <button class="usa-button-unstyled" aria-expanded="false" aria-controls="collapsible-0">
-          Question
-        </button>
-        <div id="collapsible-0" aria-hidden="true" class="usa-accordion-content">
-          <p>
-          Answer
-          </p>
-        </div>
-      </li>
-      <li>
-        <button class="usa-button-unstyled" aria-expanded="false" aria-controls="collapsible-1">
-          Question 2
-        </button>
-        <div id="collapsible-1" aria-hidden="true" class="usa-accordion-content">
-          <p>
-          Answer
-          </p>
-        </div>
-      </li>
-    </ul>
-  </div>
+<ul class="usa-unstyled-list">
+<li>
+<button class="usa-button-unstyled" aria-expanded="false" aria-controls="collapsible-0">
+Question
+</button>
+<div id="collapsible-0" aria-hidden="true" class="usa-accordion-content">
+<p>
+Answer
+</p>
+</div>
+</li>
+<li>
+<button class="usa-button-unstyled" aria-expanded="false" aria-controls="collapsible-1">
+Question 2
+</button>
+<div id="collapsible-1" aria-hidden="true" class="usa-accordion-content">
+<p>
+Answer
+</p>
+</div>
+</li>
+</ul>
+</div>
 
 
 ## References

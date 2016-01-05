@@ -16,10 +16,18 @@ baseurl: "/assay-education" # the subpath of your site, e.g. /blog
 url: "http://sachsmc.github.io/assay-education" # the base hostname & protocol for your site
 twitter_username: theNCI
 github_username:  sachsmc
-gems: [us_web_design_standards]
+gems: [us_web_design_standards, jekyll-pandoc]
 sass:
     sass_dir: _sass
 exclude: [README.md]
 
 # Build settings
-markdown: kramdown
+markdown: pandoc
+
+pandoc: 
+    extensions: 
+        - normalize
+        - smart
+        - mathjax
+        - section-divs
+        - bibliography: bibliography/book-chapter.bib

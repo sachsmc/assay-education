@@ -39,3 +39,12 @@
 <script>
 $("[href='" + window.location.pathname  + "']").addClass("usa-current");
 </script>
+
+<script>
+var majApp = setInterval(function() {
+	if($('#MathJax_Message').attr("style") == "display: none;"){
+		$(".mjx-math").attr("aria-hidden", "false");
+		clearInterval(majApp);
+	}
+}, 500)
+</script>
