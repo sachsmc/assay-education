@@ -3,7 +3,7 @@ layout: post
 subtitle: This is a lesson template, please edit me.
 category: analytic
 author: Michael Sachs
-date: 2015-12-30
+date: 2016-02-01
 title: Statistical issues in design and reporting analytical validation studies
 objectives:
 - 'Understand when to report the coefficient of variation and how to interpret it. '
@@ -19,12 +19,21 @@ objectives:
 - Sentence number 3.
 
 
-## Section 1
+## The First Section
+
+This document uses the markdown syntax. Read more about it here: <https://help.github.com/articles/markdown-basics/>.
+
+Bold text can be created with **double stars** or __double underscores__.
+
+Italic text can be created with *single stars* or _single underscores_.
+
+Separate paragraphs with line breaks.
 
 $\alpha$
 
 ### Definition {.usa-alert .usa-alert-info}
 Content
+
 Some math:  $\int_0^1 \beta^2 f(x) \, df(x)$
 
 
@@ -37,9 +46,13 @@ Some math:  $\int_0^1 \beta^2 f(x) \, df(x)$
 
 ![example image]({{ site.baseurl }}/img/ex-plot.png)
 
+Example figure. Put the caption in between the square brackets.
+
+Links can be added using pointy brackets <http://www.google.com>, or inline using the [markdown syntax](https://help.github.com/articles/markdown-basics/)
+
 ## Section 2
 
-According to @jennings2009recommended.
+According to @jennings2009recommended. For references, use the "at" symbol, followed by the first authors last name, then the year, and finally the first non-article word of the title.
 
 
 ## Test your knowledge
@@ -50,11 +63,11 @@ According to @jennings2009recommended.
 <ul class="usa-unstyled-list">
 <li>
 <button class="usa-button-unstyled" aria-expanded="false" aria-controls="collapsible-0">
-Question
+What is 2+2?
 </button>
 <div id="collapsible-0" aria-hidden="true" class="usa-accordion-content">
 <p>
-Answer
+4
 </p>
 </div>
 </li>
