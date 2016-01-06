@@ -1,8 +1,181 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
 
-<div class="home">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Assay Development Educational Series</title>
+  <meta name="description" content="This is a series of lessons on the logistical and statistical  issues related to the development and evaluation of biomarkers for use in oncology. 
+">
+
+  <link rel="stylesheet" href="/assay-education/css/main.css">
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+  <link rel="stylesheet" href="/assay-education/css/uswds.css">
+  <link rel="canonical" href="http://sachsmc.github.io/assay-education/assay-education/">
+  <link rel="alternate" type="application/rss+xml" title="Assay Development Educational Series" href="http://sachsmc.github.io/assay-education/assay-education/feed.xml">
+</head>
+
+
+  <body>
+
+    <header class="usa-site-header" role="banner">
+
+<div class="usa-grid">
+	
+  <div class="usa-width-one-fourth">
+      <p><img class="logo" alt="NCI Logo" src="/assay-education/img/nci-logo-full.svg"></p>
+    <p class="usa-disclaimer-stage">This site is currently in development. <a href="https://github.com/sachsmc/assay-education">Learn more.</a></p>
+  </div>
+  
+   <div class="usa-width-one-half">
+        <h1>
+          <a href="/assay-education/" accesskey="1" title="Home" aria-label="Home">
+			  Assay Development Educational Series</a>
+        </h1>
+	</div>
+      <ul class="usa-button-list usa-unstyled-list usa-width-one-fourth">
+        <li>
+          <a class="usa-button" href="/assay-education/about/">About</a>
+        </li>
+        <li>
+          <a class="usa-button usa-button-outline" href="https://github.com/sachsmc/assay-education">
+            View on GitHub
+          </a>
+          </li>
+      </ul>
+</div>
+  
+</header>
+
+
+	<div class="usa-grid">
+	<div class="usa-width-one-fourth sidenav">
+
+	<ul class="usa-sidenav-list">
+		<li> <h5>Overview</h5>
+      <ul class="usa-sidenav-sub_list">
+  		  
+		  
+  		    <li>
+  		      <a href="/assay-education/overview/2016/03/03/clinical-uses-of-biomarkers.html">Clinical Uses of Biomarkers</a>
+  		    </li>
+		  
+  		  
+		  
+  		    <li>
+  		      <a href="/assay-education/overview/2016/03/02/biomarkers-in-trials.html">The Use of Biomarkers in Clinical Trials</a>
+  		    </li>
+		  
+  		  
+		  
+  		    <li>
+  		      <a href="/assay-education/overview/2016/03/01/assay-terminology.html">Assay terminology</a>
+  		    </li>
+		  
+  		  
+		  
+  		  
+		  
+  		  
+		  
+  		  
+		  
+  		  
+		  
+  		  
+		  
+  		  
+		  
+  		    <li>
+  		      <a href="/assay-education/overview/2015/12/30/lesson-template.html">Lesson Template</a>
+  		    </li>
+		  
+  		  
+  		</ul>
+	</li>
+		<li> <h5>Assay Validation</h5>
+      <ul class="usa-sidenav-sub_list">
+  		  
+		  
+  		  
+		  
+  		  
+		  
+  		  
+		  
+  		    <li>
+  		      <a href="/assay-education/analytic/2016/02/03/sources-of-variation.html">Identifying and Describing Different Sources of Variation</a>
+  		    </li>
+		  
+  		  
+		  
+  		    <li>
+  		      <a href="/assay-education/analytic/2016/02/02/measures-of-location.html">Describing and comparing measures of location</a>
+  		    </li>
+		  
+  		  
+		  
+  		    <li>
+  		      <a href="/assay-education/analytic/2016/02/01/design-and-reporting.html">Statistical issues in design and reporting analytical validation studies</a>
+  		    </li>
+		  
+  		  
+		  
+  		  
+		  
+  		  
+		  
+  		  
+		  
+  		  
+  		</ul>
+	</li>
+		<li> <h5>Biomarker-based Trials</h5>
+      <ul class="usa-sidenav-sub_list">
+  		  
+		  
+  		  
+		  
+  		  
+		  
+  		  
+		  
+  		  
+		  
+  		  
+		  
+  		  
+		  
+  		    <li>
+  		      <a href="/assay-education/design/2016/01/03/enrichment-designs.html">Enrichment Designs</a>
+  		    </li>
+		  
+  		  
+		  
+  		    <li>
+  		      <a href="/assay-education/design/2016/01/02/integrated-correlative.html">Integrated Correlative Aims</a>
+  		    </li>
+		  
+  		  
+		  
+  		    <li>
+  		      <a href="/assay-education/design/2016/01/01/other-design-issues.html">Other </a>
+  		    </li>
+		  
+  		  
+		  
+  		  
+  		</ul>
+	</li>
+</ul>
+
+  </div>
+    <div class="usa-width-two-thirds">
+        <div class="home">
 
   <div class="usa-grid">
 	  
@@ -12,23 +185,97 @@ layout: default
         <h3 class="usa-heading">Terminology and Overview</h6>
 		
 		
-		  {% for post in site.posts %}
-		  {% if post.category == "overview" %}
+		  
+		  
 		  <div class="lesson-card">
 		    
-		      <a class="usa-button" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+		      <a class="usa-button" href="/assay-education/overview/2016/03/03/clinical-uses-of-biomarkers.html">Clinical Uses of Biomarkers</a>
 			
   		  <h5> Learning Objectives: </h5>
   		  	<ol>
-  				{% for obj in post.objectives %}
-  				<li>{{ obj }}</li>
-  				{% endfor %}
+  				
+  				<li>Understand the different ways biomarkers are used in oncology clinical practice, including for diagnosis, prognosis, and therapy selection. </li>
+  				
+  				<li>Understand that biomarkers can be based on single measurements or summaries of multiple measurements. </li>
+  				
   			</ol>
 
 			</div>
 
-		  {% endif %}
-		  {% endfor %}
+		  
+		  
+		  
+		  <div class="lesson-card">
+		    
+		      <a class="usa-button" href="/assay-education/overview/2016/03/02/biomarkers-in-trials.html">The Use of Biomarkers in Clinical Trials</a>
+			
+  		  <h5> Learning Objectives: </h5>
+  		  	<ol>
+  				
+  				<li>Understand the different ways biomarkers are used in clinical trials, including determining eligibility, stratification factors, PK/PD outcomes, and correlative aims. </li>
+  				
+  				<li>Understand the differences between integral, integrated, and exploratory. </li>
+  				
+  				<li>Understand how the level of evidence and background information about the assay depends on its use. </li>
+  				
+  			</ol>
+
+			</div>
+
+		  
+		  
+		  
+		  <div class="lesson-card">
+		    
+		      <a class="usa-button" href="/assay-education/overview/2016/03/01/assay-terminology.html">Assay terminology</a>
+			
+  		  <h5> Learning Objectives: </h5>
+  		  	<ol>
+  				
+  				<li>Understand the different types of assay inputs, e.g. type and quantity of specimens, reagents, and SOP. </li>
+  				
+  				<li>Understand what an SOP is and why it is important. </li>
+  				
+  				<li>Understand the different types of assay outputs and how they are translated into clinically useful biomarkers. </li>
+  				
+  			</ol>
+
+			</div>
+
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  <div class="lesson-card">
+		    
+		      <a class="usa-button" href="/assay-education/overview/2015/12/30/lesson-template.html">Lesson Template</a>
+			
+  		  <h5> Learning Objectives: </h5>
+  		  	<ol>
+  				
+  				<li>This is the first objective.</li>
+  				
+  				<li>Sentence number two.</li>
+  				
+  				<li>Sentence number 3.</li>
+  				
+  			</ol>
+
+			</div>
+
+		  
+		  
 		
 
       </div>
@@ -37,21 +284,73 @@ layout: default
 
         <h3 class="usa-heading">Statistical Issues in Analytical Performance Assessment</h6>
 
-	  {% for post in site.posts %}
-	  {% if post.category == "analytic" %}
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
 	  <div class="lesson-card">
 
-	      <a class="usa-button" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+	      <a class="usa-button" href="/assay-education/analytic/2016/02/03/sources-of-variation.html">Identifying and Describing Different Sources of Variation</a>
 
 		  <h5> Learning Objectives: </h5>
 		  	<ol>
-				{% for obj in post.objectives %}
-				<li>{{ obj }}</li>
-				{% endfor %}
+				
+				<li>Understand the differences between pre-analytical, analytical, and biological variation. </li>
+				
+				<li>Understand statistical properties of the variance, and its decomposition into variance components. </li>
+				
+				<li>Understand how to identify what components are estimable in a given study. </li>
+				
 			</ol>
 </div>
-	  {% endif %}
-	  {% endfor %}
+	  
+	  
+	  
+	  <div class="lesson-card">
+
+	      <a class="usa-button" href="/assay-education/analytic/2016/02/02/measures-of-location.html">Describing and comparing measures of location</a>
+
+		  <h5> Learning Objectives: </h5>
+		  	<ol>
+				
+				<li>Understand what the term accuracy may mean with a continuous or dichotomous biomarker. </li>
+				
+				<li>Understand the statistical properties of bias when there is a reference value. </li>
+				
+			</ol>
+</div>
+	  
+	  
+	  
+	  <div class="lesson-card">
+
+	      <a class="usa-button" href="/assay-education/analytic/2016/02/01/design-and-reporting.html">Statistical issues in design and reporting analytical validation studies</a>
+
+		  <h5> Learning Objectives: </h5>
+		  	<ol>
+				
+				<li>Understand when to report the coefficient of variation and how to interpret it. </li>
+				
+				<li>Sample size planning for assay validation, including negative and positive controls. </li>
+				
+				<li>Understand how to describe a study when reporting statistics, including what replicates were performed and how. </li>
+				
+			</ol>
+</div>
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
 
       </div>
 	  
@@ -59,21 +358,77 @@ layout: default
 
         <h3 class="usa-heading">Statistical Issues in Biomarker-Based Clinical Trials</h6>
 
-	  {% for post in site.posts %}
-	  {% if post.category == "design" %}
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
 	  <div class="lesson-card">
 
-	      <a class="usa-button" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+	      <a class="usa-button" href="/assay-education/design/2016/01/03/enrichment-designs.html">Enrichment Designs</a>
 
 		  <h5> Learning Objectives: </h5>
 		  	<ol>
-				{% for obj in post.objectives %}
-				<li>{{ obj }}</li>
-				{% endfor %}
+				
+				<li>Understand the levels of evidence needed to justify an enrichment design. </li>
+				
+				<li>Understand the limitations of the end results from such a design. </li>
+				
+				<li>Other pitfalls, including the impact of false positive/negative rates, and partial enrichment. </li>
+				
 			</ol>
 </div>
-	  {% endif %}
-	  {% endfor %}
+	  
+	  
+	  
+	  <div class="lesson-card">
+
+	      <a class="usa-button" href="/assay-education/design/2016/01/02/integrated-correlative.html">Integrated Correlative Aims</a>
+
+		  <h5> Learning Objectives: </h5>
+		  	<ol>
+				
+				<li>Understand the planning process for assessing prognostic biomarkers. </li>
+				
+				<li>Understand the planning process for assessing predictive biomarkers, including when the treatment is efficacious overall and not. </li>
+				
+				<li>Understand the signature development process. </li>
+				
+				<li>Understand the expectations regarding the analysis and statistical plans. </li>
+				
+			</ol>
+</div>
+	  
+	  
+	  
+	  <div class="lesson-card">
+
+	      <a class="usa-button" href="/assay-education/design/2016/01/01/other-design-issues.html">Other </a>
+
+		  <h5> Learning Objectives: </h5>
+		  	<ol>
+				
+				<li>Stratification factors, and when imbalance is a concern. </li>
+				
+				<li>PK/PD outcomes. </li>
+				
+				<li>Exploratory correlative aims. </li>
+				
+			</ol>
+</div>
+	  
+	  
+	  
+	  
 
       </div>
     </div>
@@ -81,3 +436,62 @@ layout: default
 
 
 </div>
+
+		
+    </div>
+</div>
+		<footer class="usa-footer usa-footer-slim usa-sans" role="contentinfo">
+    <div class="usa-grid usa-footer-return-to-top">
+      <a href="#">Return to top</a>
+    </div>
+    <div class="usa-footer-primary-section">
+      <div class="usa-grid-full">
+        <nav class="usa-footer-nav usa-width-one-half">
+          <ul class="usa-unstyled-list">
+            <li class="usa-width-one-sixth usa-footer-primary-content">
+              <a class="usa-footer-primary-link" href="/assay-education/">Home</a>
+            </li>
+            <li class="usa-width-one-sixth usa-footer-primary-content">
+              <a class="usa-footer-primary-link" href="/assay-education/about/">About</a>
+            </li>
+	        <li class="usa-width-two-sixths usa-footer-primary-content">
+				<p>Questions or Comments?</p>
+	          <a href="mailto:michael.sachs@nih.gov">michael.sachs@nih.gov</a>
+	        </li>
+          </ul>
+        </nav>
+        <div class="usa-width-one-half usa-footer-primary-content">
+          <p>This is a series of lessons on the logistical and statistical  issues related to the development and evaluation of biomarkers for use in oncology. 
+</p>
+        </div>
+            
+      </div>
+    </div>
+
+    <div class="usa-footer-secondary_section">
+      <div class="usa-grid">
+        <div class="usa-footer-logo">
+          <img class="usa-footer-slim-logo-img" src="/assay-education/assets/img/us_flag_small.png" alt="Logo image">
+          <h3 class="usa-footer-slim-logo-heading">Assay Development Educational Series</h3>
+        </div>
+      </div>
+  </div>
+</footer>
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+ <script src="/assay-education/assets/js/components.js"></script>
+<script>
+$("[href='" + window.location.pathname  + "']").addClass("usa-current");
+</script>
+
+<script>
+var majApp = setInterval(function() {
+	if($('#MathJax_Message').attr("style") == "display: none;"){
+		$(".mjx-math").attr("aria-hidden", "false");
+		clearInterval(majApp);
+	}
+}, 500)
+</script>
+
+  </body>
+
+</html>
